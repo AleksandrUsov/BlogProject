@@ -1,0 +1,31 @@
+.inline-block {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.deleteIcon {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background: white;
+  color: black;
+}
+
+.loginFormElements {
+  width: 30%;
+  height: 10%;
+}
+
+.loginForm {
+  display: flex;
+  flex-flow: column;
+}
+
+.logoutButton {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
